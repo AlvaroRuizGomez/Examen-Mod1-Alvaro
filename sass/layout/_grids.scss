@@ -1,3 +1,33 @@
 // *****************************
 // +++++++ $GRIDS ++++++
 // *****************************
+.barraNav
+{
+    display: grid;
+    background-color: $color_BlancoNormal; 
+   
+    
+    &__logo
+    {
+
+    
+        &--botones{
+
+        }
+    }
+
+}
+
+.grid_principal {
+    display: grid;
+   
+}
+
+figure{
+    height: 400px;
+    background: url(../assets/img/desktop/@1x/banner.jpg) 50% 20% / cover no-repeat;
+    figcaption{
+        font-size: 5rem;
+        color: $color_BlancoMedio;
+    }
+}
