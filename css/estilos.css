@@ -116,8 +116,7 @@ table {
   display: grid; }
 
 figure {
-  height: 400px;
-  background: url(../assets/img/desktop/@1x/banner.jpg) 50% 20%/cover no-repeat; }
+  height: 400px; }
   figure figcaption {
     font-size: 5rem;
     color: #F8F8F8; }
