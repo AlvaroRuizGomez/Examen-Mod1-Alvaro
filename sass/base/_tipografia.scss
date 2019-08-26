@@ -3,3 +3,45 @@
 *****************************/
 
 
+html
+{
+    font-size: 16px;
+}
+
+// Recordar: font(peso,estilo,tamaño,color)
+.menuPrincipal, a
+{
+  // Arial Normal 20pt gris
+  @include font(normal, normal, 1.25rem, $color_Gris);
+}
+.banner__texto
+{
+    // Arial Bold 77pt blanco
+    @include font(bold, normal, 4.8125rem, $color_Blanco);
+
+} 
+
+button
+{
+    // Arial Italic 17pt blanco
+    @include font(normal, italic, 1.0625rem, $color_Blanco);
+}
+
+.post
+{
+    &__figcaption
+    {
+         
+        &__nombreGato
+        {
+            // Arial Normal 20pt blanco
+             @include font(normal, normal, 1.25rem, $color_Blanco);
+        }
+
+        &__duenoGato
+        {
+            // Arial Italic 15pt blanco
+            @include font(normal, italic, 0.9375rem, $color_Blanco);
+        }
+    }
+}

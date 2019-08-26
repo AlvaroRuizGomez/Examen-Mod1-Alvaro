@@ -1,3 +1,62 @@
 // *****************************
 // +++++++ $LAYOUTS ++++++
 // *****************************
+
+
+
+
+.contenedor 
+{
+    width: 100%-2 * $margenes;
+    margin: auto;
+}
+
+hr 
+{
+border-style: none;
+height: 14px;
+}
+
+a 
+{
+text-decoration: none;
+text-transform: capitalize;
+}
+
+header 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    color: $color_Blanco;
+}
+
+figure 
+{
+    position:relative;
+    height: 50%;
+}
+
+nav 
+{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 0px 0px;
+}
+
+a 
+{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.Reloj{
+    display: block;
+    margin: auto;
+}
+
+

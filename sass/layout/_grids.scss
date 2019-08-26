@@ -1,33 +1,26 @@
-// *****************************
-// +++++++ $GRIDS ++++++
-// *****************************
-.barraNav
-{
+/*****************************
++++++++ $GRIDS ++++++
+*******************************/
+
+.gridPrincipal
+ {
     display: grid;
-    background-color: $color_BlancoNormal; 
-   
-    
-    &__logo
-    {
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    grid-gap: 1rem;
+  }
 
-    
-        &--botones{
+  figure 
+  {
+    position: relative;
+    height: 100%;
+  }
 
-        }
-    }
-
-}
-
-.grid_principal {
-    display: grid;
-   
-}
-
-figure{
-    height: 400px;
-    // background: url(/assets/img/desktop/@1x/Rectángulo\ 2.png) 50% 20% / cover no-repeat;
-    figcaption{
-        font-size: 5rem;
-        color: $color_BlancoMedio;
-    }
-}
+  figcaption 
+  {
+    position: absolute;
+    height: 100%;
+    top: 80%;
+    left: 5%;
+  }
+  

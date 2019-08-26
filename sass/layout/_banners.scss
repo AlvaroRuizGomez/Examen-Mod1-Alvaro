@@ -1,3 +1,21 @@
-// *****************************
-// +++++++ $BANNERS ++++++
-// *****************************
+/* *****************************
+   +++++++ $BANNERS ++++++
+   **************************** */
+/* BANNER */
+.banner
+{
+    // Caja banner
+    height: 400px;
+    display: flex;
+    align-items: center;
+    border-radius: 26px;
+    //Imagen fondo con texto
+    background: url(/assets/img/desktop/@1x/oscurecer.png),
+         url(/assets/img/desktop/@1x/Banner.png);
+    background-size: cover;
+    &__texto{
+        margin-left: 20px;
+        width: 30%;
+        text-transform: uppercase;
+    }  
+}

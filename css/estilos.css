@@ -103,20 +103,146 @@ table {
 /*****************************
 +++++++ $TIPOGRAFIA ++++++
 *****************************/
+html {
+  font-size: 16px; }
+
+.menuPrincipal, a {
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.25rem;
+  color: #707070; }
+
+.banner__texto {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 4.8125rem;
+  color: #FFFFFF; }
+
+button {
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1.0625rem;
+  color: #FFFFFF; }
+
+.post__figcaption__nombreGato {
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.25rem;
+  color: #FFFFFF; }
+
+.post__figcaption__duenoGato {
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 0.9375rem;
+  color: #FFFFFF; }
+
 /*****************************
  +++++++ $BOTONES ++++++
  *****************************/
-.barraNav {
-  display: -ms-grid;
-  display: grid;
-  background-color: #FFFFFF; }
+button {
+  padding: 0.3rem 1.5rem;
+  float: right;
+  background-color: #FD784B;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 18px;
+  border: none; }
 
-.grid_principal {
-  display: -ms-grid;
-  display: grid; }
+.contenedor {
+  width: 92%;
+  margin: auto; }
+
+hr {
+  border-style: none;
+  height: 14px; }
+
+a {
+  text-decoration: none;
+  text-transform: capitalize; }
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 65px;
+  color: #FFFFFF; }
 
 figure {
-  height: 400px; }
-  figure figcaption {
-    font-size: 5rem;
-    color: #F8F8F8; }
+  position: relative;
+  height: 50%; }
+
+nav {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 65px;
+  padding: 0px 0px; }
+
+a {
+  text-decoration: none;
+  text-transform: capitalize; }
+
+.Reloj {
+  display: block;
+  margin: auto; }
+
+/* *****************************
+   +++++++ $BANNERS ++++++
+   **************************** */
+/* BANNER */
+.banner {
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 26px;
+  background: url(/assets/img/desktop/@1x/oscurecer.png), url(/assets/img/desktop/@1x/Banner.png);
+  background-size: cover; }
+  .banner__texto {
+    margin-left: 20px;
+    width: 30%;
+    text-transform: uppercase; }
+
+/*****************************
++++++++ $GRIDS ++++++
+*******************************/
+.gridPrincipal {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+  grid-template-columns: repeat(4, 1fr);
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  grid-gap: 1rem; }
+
+figure {
+  position: relative;
+  height: 100%; }
+
+figcaption {
+  position: absolute;
+  height: 100%;
+  top: 80%;
+  left: 5%; }
